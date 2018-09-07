@@ -17,7 +17,10 @@ public class OpenLibrary {
 		logger.logSuccess("Running on: " + network.getHostName() + "@" + network.getIP());
 		logger.logMessage("Welcome to OpenLibrary!");
 		logger.logMessage("Testing Camera");
-		webcam.takeImage();
+		webcam.takeImage("CameraTest");
+		logger.logMessage("Testing QR Scan function");
+		webcam.scanExistingImageForQR("ScanTest.png");
+		
 	}
 	
 }

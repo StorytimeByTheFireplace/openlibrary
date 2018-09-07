@@ -32,4 +32,8 @@ public class LoggingTools {
 		System.out.println("[OpenLibrary] " + log);
 	}
 	
+	public void logQRResult(String result) {
+		System.out.print("[OpenLibrary:QRScanner Result] " + result);
+	}
+	
 }
