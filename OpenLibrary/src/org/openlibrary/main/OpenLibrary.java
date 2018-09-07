@@ -13,6 +13,7 @@ public class OpenLibrary {
 		logger.logDebug("Attempting to Initialize NetworkTools");
 		network.networkInit();
 		logger.logSuccess("Running on: " + network.getHostName() + "@" + network.getIP());
+		logger.logMessage("Welcome to OpenLibrary!");
 	}
 	
 }
