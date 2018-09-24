@@ -1,2 +1,2 @@
 # openlibrary
-A Open-Source Java Library Application
+A Open-Source Library Manager
